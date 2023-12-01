@@ -8,13 +8,13 @@ import twitter from "../../assets/twitter.png"
 function Footer() {
   return (
     <footer>
-      <div className="container mx-auto flex sm:flex-row flex-wrap">
+      <div className="container mx-auto flex flex-wrap sm:flex-row">
 
-        <section className="flex-1">
+        <section className="flex-1 md:flex-1">
           <ul>
-            <li>Contact</li>
+            <li className="py-3">Contact</li>
             <li >
-              <a className="flex flex-row" href="#">
+              <a className="flex flex-row px" href="#">
                 <img src={ locate } alt="" />  xxxx
               </a>
             </li>
@@ -31,9 +31,9 @@ function Footer() {
           </ul>
         </section>
         
-        <section className="flex-1">
+        <section className="flex-1 md:flex-1">
           <ul>
-            <li>Our social networks</li>
+            <li className="py-3">Our social networks</li>
             <li>
               <a className="flex flex-row" href="#">
                 <img src={ facebook } alt="" />  xxxx
