@@ -3,10 +3,12 @@ import Offers from "./Offers";
 
 function Main() {
   return (
-    <div className="container mx-auto">
-      <Offers />
-      <Explore />
-    </div>
+      <main className="bg-gray-400 ">
+        <div className="container mx-auto">
+        <Offers />
+        <Explore />
+        </div>
+      </main>
   );
 }
 
